@@ -19,7 +19,6 @@ public class testSearch extends TestBase {
     homePo.goToHome();
   }
 
-  @Parameters({"server","database","user","DBpassword"})
   @Test(description = "Testing search feature")
   public void searchTest() throws Exception{
     homePo.searchProduct("dress");
