@@ -23,8 +23,8 @@ protected BaseDB dbBase;
     System.setProperty("webdriver.chrome.driver", "drivers/chromedriver.exe");
     testDriver = new ChromeDriver();
     testDriver.manage().window().maximize();
-    testDriver.manage().timeouts().pageLoadTimeout(Long.valueOf(60), TimeUnit.SECONDS);
-    testDriver.manage().timeouts().implicitlyWait(Integer.valueOf(60), TimeUnit.SECONDS);
+    testDriver.manage().timeouts().pageLoadTimeout(90, TimeUnit.SECONDS);
+    testDriver.manage().timeouts().implicitlyWait(90, TimeUnit.SECONDS);
     pomBase = new PomBase(testDriver);
   }
 

@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="All Test Suite" duration-ms="5313" started-at="2020-04-23T14:47:55Z" finished-at="2020-04-23T14:48:00Z">
+  <suite name="All Test Suite" duration-ms="6172" started-at="2020-04-23T16:18:02Z" finished-at="2020-04-23T16:18:08Z">
     <groups>
     </groups>
-    <test name="weTestNG" duration-ms="5313" started-at="2020-04-23T14:47:55Z" finished-at="2020-04-23T14:48:00Z">
+    <test name="weTestNG" duration-ms="6172" started-at="2020-04-23T16:18:02Z" finished-at="2020-04-23T16:18:08Z">
       <class name="Test.Search.testSearch">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:Test.Search.testSearch@4678a2eb]" name="setUp" is-config="true" duration-ms="14746" started-at="2020-04-23T14:47:23Z" description="Starting driver" finished-at="2020-04-23T14:47:37Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Test.Search.testSearch@4678a2eb]" name="setUp" is-config="true" duration-ms="10055" started-at="2020-04-23T16:17:14Z" description="Starting driver" finished-at="2020-04-23T16:17:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method name="openURLAndLogin" signature="openURLAndLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Test.Search.testSearch@4678a2eb]" is-config="true" status="PASS" duration-ms="17498" finished-at="2020-04-23T14:47:55Z" started-at="2020-04-23T14:47:37Z" depends-on-methods="Base.TestBase.setUp" description="Loading URL and Logging in">
+        <test-method name="openURLAndLogin" signature="openURLAndLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Test.Search.testSearch@4678a2eb]" is-config="true" status="PASS" duration-ms="38309" finished-at="2020-04-23T16:18:02Z" started-at="2020-04-23T16:17:24Z" depends-on-methods="Base.TestBase.setUp" description="Loading URL and Logging in">
           <params>
             <param index="0">
               <value>
@@ -32,15 +32,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openURLAndLogin -->
-        <test-method status="PASS" signature="setupTest()[pri:0, instance:Test.Search.testSearch@4678a2eb]" name="setupTest" is-config="true" duration-ms="2935" started-at="2020-04-23T14:47:55Z" finished-at="2020-04-23T14:47:58Z">
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:Test.Search.testSearch@4678a2eb]" name="setupTest" is-config="true" duration-ms="3333" started-at="2020-04-23T16:18:02Z" finished-at="2020-04-23T16:18:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupTest -->
-        <test-method status="PASS" signature="searchTest()[pri:0, instance:Test.Search.testSearch@4678a2eb]" name="searchTest" duration-ms="1875" started-at="2020-04-23T14:47:58Z" description="Testing search feature" finished-at="2020-04-23T14:48:00Z">
+        <test-method status="PASS" signature="searchTest()[pri:0, instance:Test.Search.testSearch@4678a2eb]" name="searchTest" duration-ms="2491" started-at="2020-04-23T16:18:06Z" description="Testing search feature" finished-at="2020-04-23T16:18:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchTest -->
-        <test-method status="PASS" signature="close()[pri:0, instance:Test.Search.testSearch@4678a2eb]" name="close" is-config="true" duration-ms="5937" started-at="2020-04-23T14:48:00Z" description="Closing web browser" finished-at="2020-04-23T14:48:06Z">
+        <test-method status="PASS" signature="close()[pri:0, instance:Test.Search.testSearch@4678a2eb]" name="close" is-config="true" duration-ms="20571" started-at="2020-04-23T16:18:09Z" description="Closing web browser" finished-at="2020-04-23T16:18:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->

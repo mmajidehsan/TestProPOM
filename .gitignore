@@ -1,2 +1,14 @@
 /allure-results
 .idea/workspace.xml
+target/surefire-reports/All Test Suite/weTestNG.html
+target/surefire-reports/All Test Suite/weTestNG.xml
+target/surefire-reports/emailable-report.html
+target/surefire-reports/index.html
+target/surefire-reports/junitreports/TEST-Test.Search.testSearch.xml
+target/surefire-reports/old/All Test Suite/methods-alphabetical.html
+target/surefire-reports/old/All Test Suite/methods.html
+target/surefire-reports/TEST-TestSuite.xml
+target/surefire-reports/testng-results.xml
+target/surefire-reports/TestSuite.txt
+target/test-classes/Test/Search/testSearch.class
+.idea/workspace.xml
