@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 import java.sql.ResultSet;
 
 public class testSearch extends TestBase {
-  HomePOM homePo;
+  private HomePOM homePo;
 
   @BeforeTest
   public void setupTest(){
