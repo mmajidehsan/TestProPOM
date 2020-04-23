@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [All Test Suite]">
+  <parameter name="rmail" value="manisha@lol.com"/>
+  <parameter name="password" value="demouser1234"/>
+  <parameter name="name2" value="manisha"/>
+  <parameter name="name1" value="manisha"/>
+  <parameter name="URL" value="http://automationpractice.com/index.php"/>
+  <parameter name="username" value="demouser@mintcola.com"/>
+  <test thread-count="5" verbose="0" name="weTestNG(failed)">
+    <classes>
+      <class name="Test.Search.testSearch">
+        <methods>
+          <include name="openURLAndLogin"/>
+          <include name="setupTest"/>
+          <include name="searchTest"/>
+          <include name="setUp"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- Test.Search.testSearch -->
+    </classes>
+  </test> <!-- weTestNG(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
